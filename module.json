@@ -1,0 +1,49 @@
+{
+  "id": "the-adventurer",
+  "title": "The Adventurer",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Aeyana (creator)",
+      "url": "https://www.gmbinder.com/share/-L7MxaZV26WwHwzaP-eD#p6",
+      "flags": {}
+    },
+    {
+      "name": "VAD (module)",
+      "url": "https://restenford.com/",
+      "discord": "VAD.bad",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "adventurer",
+      "label": "The Adventurer (Class)",
+      "path": "packs/adventurer",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "adventurer-journal",
+      "label": "The Adventurer (Journal)",
+      "path": "packs/adventurer-journal",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "description": ""
+}
